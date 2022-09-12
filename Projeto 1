@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+
+void menu()
+{
+	cout << "########## MENU ##########\n";
+	cout << "1-JOGAR\n";
+	cout << "2-TUTORIAL\n";
+	cout << "3-SAIR\n";
+	cout << "##########################"; 
+}
+
+int main()
+{
+	menu();	
+}
