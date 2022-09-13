@@ -2,17 +2,40 @@
 
 using namespace std;
 
+void movi()
+{
+	char matriz[25][25] = {' '};
+	int ey, ex;
+	
+	for(i = 0; i < 24; i++)
+	{
+		for(j = 0; j < 24; j++)
+		{
+			cout << matriz[ey][ex];
+		}
+	}
+}
 
 void menu()
 {
+	int x;
+	
 	cout << "########## MENU ##########\n";
 	cout << "1-JOGAR\n";
 	cout << "2-TUTORIAL\n";
 	cout << "3-SAIR\n";
-	cout << "##########################"; 
+	cout << "##########################\n"; 
+	cin >> x;
+	
+	switch(x)
+	{
+		case 1:
+		movi();
+		break;
+	}
 }
 
 int main()
 {
-	menu();	
+	menu();
 }
