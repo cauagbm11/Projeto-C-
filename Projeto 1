@@ -4,16 +4,43 @@ using namespace std;
 
 void movi()
 {
-	char matriz[25][25] = {' '};
-	int ey, ex;
+	char matriz[25][25];
+	int ey, ex, p;
 	
-	for(i = 0; i < 24; i++)
+	
+	for(ex = 0; ex < 24; ex++)
 	{
-		for(j = 0; j < 24; j++)
-		{
-			cout << matriz[ey][ex];
-		}
+		matriz[0][ex] = '*';
+		cout << matriz[0][ex];
+		cout << " ";
 	}
+	 cout << " ";
+
+	for(ex = 1; ex < 25; ex++)
+	{
+		matriz[1][ex] = '*';
+		cout << matriz[1][ex];
+		
+		for(ey = 1; ey < 25; ey++)
+		{
+			matriz[ey][1] = ' ';
+			cout << matriz[ey][1] << " ";
+		}
+		cout << "*\n";
+	}
+	
+	for(ex = 0; ex < 25; ex++)
+	{
+		matriz[24][ex] = '*';
+		cout << matriz[24][ex];
+		cout << " ";
+	}
+	
+	matriz[13][13] = '*';
+	cin >> p;
+	
+	
+	
 }
 
 void menu()
