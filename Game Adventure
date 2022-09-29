@@ -842,6 +842,9 @@ void menu()
 		
 		case 2:
 		cout << (" W:  movimenta  para cima.\n A: movimenta para esquerda.\n S: movimenta para baixo.\n D:  movimenta para direita.\n I: interage com o objeto que estiver encima.\n O jogo possui 3 fases e o objetivo eh encontrar a chave e abrir a porta, para passar de nivel ate finalizar.\n\n ELEMENTOS DO JOGO:\n &: Representa o jogador.\n *:  Representa uma parede.\n @: Representa a chave para abrir a porta para finalizar.\n D: Representa a porta fechada.\n =: Representa a porta aberta quando interagiu com a chave.\n O: Representa um botao.\n #:  Representa um espinho, se tocar no espinho volta a fase e se perder as 3 vidas perde o jogo.\n >: Teletransporte.");
+		system("pause");
+		system("cls");
+		menu();
 		break;
 		
 		case 3:
