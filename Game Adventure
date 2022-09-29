@@ -6,7 +6,7 @@ void fase1();
 void fase2();
 void fase3();
 void menu();
-int v = 4;
+int v = 3;
 
 void fase1()
 {	
